@@ -1,0 +1,11 @@
+body{
+	background-color: #f6f6f6;
+}
+blockquote{
+	border-left: 4px solid #DDD;
+   /* color: #777;*/
+    background: url(../images/icon_quote_s.gif) #fff 10px 10px no-repeat;
+    padding: 40px 0px 10px 50px;
+    border: 1px dashed #ccc;
+    margin-bottom: 20px;
+}

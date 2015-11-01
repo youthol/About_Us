@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#sideCatalog{
+	font-family: '宋体';
+    font-size: 14px;
+    height: 260px;
+    left: 10px; 
+    line-height: 19px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 290px;
+    /*background-color: red;*/
+}
+#sideCatalog-sidebar{
+	background-color: #EAEAEA;
+    border-color: -moz-use-text-color #EAEAEA;
+    border-image: none;
+    border-left: 1px solid #EAEAEA;
+    border-right: 1px solid #EAEAEA;
+    border-style: none solid;
+    border-width: 0 1px;
+    height: 258px;
+    left: 5px;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+.sideCatalog-sidebar-top{
+	/*cursor: pointer;*/
+    top: 0;
+    background: url("http://baike.bdimg.com/static/lemma/view/img/sideToolbar_95787884.gif") no-repeat scroll 0 -199px;
+    height: 10px;
+    left: -5px;
+    overflow: hidden;
+    position: absolute;
+    width: 10px;
+}
+.sideCatalog-sidebar-bottom{
+	background: url("http://baike.bdimg.com/static/lemma/view/img/sideToolbar_95787884.gif") no-repeat scroll 0 -199px;
+    height: 10px;
+    left: -5px;
+    overflow: hidden;
+    position: absolute;
+    width: 10px;
+    bottom: 0;
+}
+#sideCatalog-catalog{
+	height: 230px;
+    top: 18px;
+    overflow: hidden;
+    padding-left: 23px;
+    position: relative;
+}
+#sideCatalogBtn{
+	background: url("http://baike.bdimg.com/static/lemma/view/img/sideToolbar_95787884.gif") no-repeat scroll 0 0;
+    cursor: pointer;
+    height: 45px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    position: relative;
+    width: 45px;
+    display: block;
+}
+#sideToolbar-up{
+	background: url("http://baike.bdimg.com/static/lemma/view/img/sideToolbar_95787884.gif") no-repeat scroll -1px -62px;
+    border-radius: 2px;
+    display: block;
+    height: 45px;
+    margin-left: 10px;
+    width: 45px;
+}

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>关于我们-栏目设置</title>
+    <!-- <meta name="viewport" content="width=device-width"> -->
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/lanmu.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.webui-popover.min.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery.webui-popover.min.js"></script>
+    <script type="text/javascript">
+    function setTab(n) {
+        var tli = document.getElementById("leftmenu0").getElementsByTagName("li");
+        var mli = document.getElementById("mcont0").getElementsByTagName("ul");
+        for (i = 0; i < tli.length; i++) {
+            tli[i].className = i == n ? "hover" : "";
+            mli[i].style.display = i == n ? "block" : "none";
+        }
+    }
+    </script>
+</head>
+
+<body>
+    <div class="head">
+        <div class="logo">
+            <a href="http://www.youthol.cn">
+                <img src="images/logo.png" height="76" width="226">
+            </a>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">网站介绍</a></li>
+                <li><a href="lanmu.html" class="active">栏目设置</a></li>
+                <li><a href="jianshe.html">建设团队</a></li>
+                <li><a href="timeline.html">大事记</a></li>
+                <li><a href="http://youthol.cn/hello/qcz/index.aspx">青春志</a></li>
+                <li><a href="joinus.html">加入我们</a></li>
+            </ul>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <div class="siderbar">
+            <ul class="sider" id="leftmenu0">
+                <li onclick="setTab(0)" class="hover">新闻频道</li>
+                <li onclick="setTab(1)">视点访谈</li>
+                <li onclick="setTab(2)">共建频道</li>
+                <li onclick="setTab(3)">学工频道</li>
+                <li onclick="setTab(4)">文学娱乐</li>
+                <li onclick="setTab(5)">我们的专题</li>
+                <li onclick="setTab(6)">我们的微博</li>
+            </ul>
+        </div>
+        <div class="content" id="mcont0">
+            <ul>
+                <br>
+                <h1 align="center" class="title">新闻频道</h1>
+                <br>
+                <hr>
+                <br>
+                <div class="content1">
+                    <p>
+                        作为网站的重头戏，新闻频道包含了最新通知、活动海报、校园快讯、社会热点等部分，以服务学生、引导学生、贴近学生为宗旨，走的是清新、活泼而不失严谨的风格，网站孩子们敏锐的眼睛，将镜头聚焦到教学楼、餐厅、图书馆、事务中心等与学生生活学习最近的场所，传达最新通知，讨论校园热点，引导理工舆论潮流。
+                    </p>
+                    <p>
+                        当然各学院丰富多彩的活动以及为推动促进学生工作的各项政策措施也是新闻频道源源不断的新鲜血液，保持了网站与各学院的良好沟通和长期合作。
+                    </p>
+                </div>
+            </ul>
+            <ul class="inactive">
+                <br>
+                <h1 align="center" class="title">视点访谈</h1>
+                <br>
+                <hr>
+                <br>
+                <h3 align="center">视点栏目</h3>
+                <br>
+                <div class="content1">
+                    <p>
+                        家事国事天下事，事事关心。这就是视点栏目的综合写照。视点栏目现为稷下视点，是基于对社会上发生的热点事件，在客观事实的基础上，以我们在校学生的角度，发出自己的声音，是我校学生进行评论、交流思想的平台。稷下视点，以评论社会上发生的热点事件为主，发表自己的看法，可参考评论家对事件的评论，对事件各个方面进行分析，以加强读者对事件的了解和认识。通过对热点事件的分析评论，对好事进行赞扬，对不合理的现象进行批评，从而引起大家对社会事件的反思。
+                    </p>
+                    <br>
+				</div>
+				<br>
+				<h3 align="center">访谈栏目</h3>
+				<br>
+				<div class="content1">
+					<p>
+						校园中的哪些事你不知道，通知我们，我们一定会迅速进行采访，了解清楚前因后果；校园中有哪些人和组织需要宣传，告诉我们，我们一定会把他们优秀的品质和独特的故事分享给大家……这就是我们访谈栏目。我们访谈栏目包括青春故事和校园访谈两个板块，立足大学校园，寻找故事中的主角，宣扬青春的童话，展示各种组织的风采，让同学们更好的了解校园中的人物、团体。莫管风云万变，精彩尽在访谈！
+					</p>
+				</div>
+            </ul>
+            <ul class="inactive">
+            	<br>
+                <h1 align="center" class="title">共建频道</h1>
+                <br>
+                <hr>
+                <br>
+                <h3 align="center">心灵之约</h3>
+                <br>
+                <div class="content1">
+                    <p>
+                        曾经拥有的,不要忘记,已经得到的,更要珍惜,属于自己的不要放弃,已经失去的,留为回忆。在你最脆弱的时候，我们安慰你，在你最落魄的时候，我们拥抱你，在你最成功的时候，我们拥护你。
+                    </p>
+                    <br>
+				</div>
+				<br>
+				<h3 align="center">齐鲁文化</h3>
+				<br>
+				<div class="content1">
+					<p>
+						中华文明灿烂辉煌，中华文化渊源流长。而齐鲁文化，作为中华文明、中华文化的本根主脉，更以其博大的思想内涵，强大的生命力和穿透力，杰出的创造、传承者，为人熟知和敬仰。我们是孔孟传人，我们细话齐鲁大地，我们用心体会每个细节，用我们的行动，让文化亲临身边。
+					</p>
+					<p>
+						“齐鲁文化”频道面向广大在校师生，宣传齐鲁文化特色，追溯历史，言连民俗。该频道下设诸子百家、印象山东、齐鲁民俗、齐鲁传说、齐鲁人杰、齐鲁游记与鬼狐聊斋等栏目。	
+					</p>
+					<p>
+						1.栏目齐鲁传说，以介绍流传于山东大地的传说故事。
+					</p>
+					<p>
+						2.栏目诸子百家，下设儒家，兵家与争鸣三个小栏目，展示齐鲁大地古代儒风大雅，兵法谋略，传承传统文化。
+					</p>
+					<p>
+						3.齐鲁人杰，下设名人，青年，先贤三个栏目，以加大展示山东人物的范围，将优秀青年如各类竞赛获奖人物，明星列入展示范围。
+					</p>
+					<p>
+						4.印象山东，展示齐鲁大地的人、景回忆录。
+					</p>
+					<p>
+						5.齐鲁游记，展示的是人在齐鲁的游历，不论古今、不论天南地北。
+					</p>
+					<p>
+						6.鬼狐聊斋，是一个地方性特色栏目，将淄博蒲松龄与其《聊斋》形象的展示给大家。
+					</p>
+				</div>
+            </ul>
+            <ul class="inactive">
+            	<br>
+                <h1 align="center" class="title">学工频道</h1>
+                <br>
+                <hr>
+                <br>
+                <div class="content1">
+                    <p>
+                        学工频道共包括五个子栏目，分别是考试学习，创业指导，求职就业，励志讲坛，教育关注。
+                    </p>
+                    <p>
+                        学工频道表面看起来似乎是网站最低调的一个频道，文章多以严肃性、学术性为主要特点，但是本频道立足于网站的宗旨“贴近学生，引导学生，服务学生”，向学生提供有关学习、就业创业、当前教育形式等与学生自身利益切实相关的有用信息，因此赢得同学、老师的好评。例如考试学习板块，主要会向同学们发布当前比较热门的考研、公务员考试、英语四六级考试等，让大家能够及时获取相关方面的资源。
+
+                    </p>
+                </div>
+            </ul>
+            <ul class="inactive">
+            	<br>
+                <h1 align="center" class="title">文学娱乐</h1>
+                <br>
+                <hr>
+                <br>
+                <h3 align="center">文学频道介绍</h3>
+                <br>
+                <div class="content1">
+                    <p>
+                        新版页面中，文学网携手娱乐网打造突破校园网站而存在的重磅小清新，更名为“文艺范”。 文艺范包括文学和娱乐两大板块。文学由原创、小说、眸上光组成。原创主要展示各类文学作品，小说栏目包括各类小说，眸上光是不同风格图片的集锦。文娱板块的栏目综合了影视资讯，最新的音乐报道，乐迷影迷抒发感情的影评、乐评。文艺范的初衷是为打造一个全新的文化盛宴，从不同的视角看当今文化。 此外还包括校内散文加小说的“原创”频道，校外适合年轻人阅读和喜爱的文字集“小站”频道，拥有世界设计师的作品、摄影师的作品的图片集“眸上光“频道。风格简单轻快，打破拘束，文艺范十足。拒绝平庸。
+                    </p>
+                </div>
+                <br>
+                <h3 align="center">娱乐频道介绍</h3>
+                <br>
+                <div class="content1">
+                	<p>
+                		娱乐共分3个子栏目：电影、音乐、动漫。
+                	</p>
+                	<p>
+                		<b>电影</b>一栏以最新热播、经典热播资讯与评论结合的形式为主，是在校学生的投稿平台。此栏目立足于激发学生的观影兴趣和锻炼学生的评论能力，以影评的形式将读者的观影感悟展现出来，读者在这里可以尽情抒发自己的感慨和见解，和他人共同分享观影心得。
+                	</p>
+                	<p>
+                		<b>音乐</b>属推荐类，由小编向读者整理出当下流行、受欢迎的音乐或音乐ＭＶ并加之自己的欣赏和理解；也可以论坛性质由发帖人上传自己所喜欢的音乐并加以介绍。
+                	</p>
+                	<p>
+                		<b>动漫</b>，紧跟热潮，整理最新更新的动漫信息，精选专业评论者对各动漫中的亮 点进行剖析加之学生自己的理解和评论。
+                	</p>
+                </div>
+            </ul>
+            <ul class="inactive">
+                <br>
+                <h1 align="center" class="title">我们的专题</h1>
+                <br>
+                <hr>
+                <br>
+                <div class="content1">
+                    内容
+                </div>
+            </ul>
+            <ul class="inactive">
+            	<br>
+                <h1 align="center" class="title">我们的微博</h1>
+                <br>
+                <hr>
+                <br>
+                <div class="content1">
+                    <p>
+                        青春在线网站官方微博，其实是一个“非主流”官方微博。在这里，你会很少看到无聊的新闻、或者不重要的通告、亦或是枯燥的各种活动。取而代之的是：及时的重大消息通知、社会热点讨论、各种大型特色活动的微直播、好玩的、好吃的，应有尽有。还有一点最重要的，我们有很高的在线率、很高的互动性。不管是你的微博，还是他的微博，在我们这里都有可能成为主角。聊天，那是必须的，聊你的情感、聊你的辛酸、分享你的快乐事、寻求帮助、帮助他人。在我们搭建的小平台上，你能找的大思维，大想法，好朋友。信不信由你！快来和小编一块畅游微博吧。另外，我们互粉不删听，绝对诚信的哦。
+                    </p>
+                    <br>
+                	<br>
+                	<p>
+                		<b>新浪微博地址：</b>
+                		<a href="http://weibo.com/youthonline" target="_blank" class="color">
+                			weibo.com/youthonline
+                		</a>
+                	</p>
+                	<p>
+                		<b>腾讯微博地址：</b>
+                		<a href="http://t.qq.com/youthol-cn" target="_blank" class="color">
+                			t.qq.com/youthol-cn
+                		</a>
+                	</p>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+     <div id="largeContent" style="display:none;">
+        <!--校内友情链接-->
+        <div class="xiaonei">
+            <ul>
+                <li><a href="http://www.sdut.edu.cn/" target="_blank">山东理工大学</a></li>
+                <li><a href="http://jwch.sdut.edu.cn/" target="_blank">教务处</a></li>
+                <li><a href="http://yjsh.sdut.edu.cn/index.html" target="_blank">研究生处</a></li>
+                <li><a href="http://dag.sdut.edu.cn/" target="_blank">档案馆</a></li>
+                <li><a href="http://news.sdut.edu.cn/" target="_blank">山东理工大学报</a></li>
+                <li><a href="http://lgrt.sdut.edu.cn/Default.aspx" target="_blank">校广播电视台</a></li>
+                <li><a href="http://lgjy.sdut.edu.cn/" target="_blank">理工家园</a></li>
+                <li><a href="http://lgwindow.sdut.edu.cn/" target="_blank">理工视窗</a></li>
+                <li><a href="http://lgqn.sdut.edu.cn/" target="_blank">理工青年</a></li>
+                <li><a href="http://www.wdou.cn/" target="_blank">网兜网</a></li>
+                <li><a href="http://xy.sdut.edu.cn/" target="_blank">校友网</a></li>
+                <li style="display:none"><a href="http://youthol.top/" target="_blank" name="绿岛之北 青春之美">绿岛之北 青春之美</a></li>
+            </ul>
+        </div>
+        <!--校外友情链接-->
+        <div class="xiaowai">
+            <ul>
+                <li><a href="http://www.univs.cn/" target="_blank">中国大学生在线</a></li>
+                <li><a href="http://www.eol.cn/" target="_blank">中国教育在线</a></li>
+                <li><a href="http://www.cyol.net/" target="_blank">中青在线</a></li>
+                <li><a href="http://www.youth.cn/" target="_blank">中国青年网</a></li>
+                <li><a href="http://www.sdxxgqt.com/" target="_blank">省学联</a></li>
+                <li><a href="http://www.gfbzb.gov.cn/" target="_blank">全国征兵网</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="cont">
+            <div class="entry-con">
+                <a href="http://www.youthol.cn">
+                    <img src="images/logo2.png" height="80" width="251">
+                </a>
+            </div>
+            <div class="entry-con">
+                <h3 class="titl">青春团队</h3>
+                <ul>
+                    <li>
+                        <a href="javascript:void(0);" target="_blank" id="youqing">友情链接</a>
+                    </li>
+                    <li>
+                        <a href="http://youthol.cn/guanyu/jieshao.html" target="_blank">网站介绍</a>
+                    </li>
+                    <li>
+                        <a href="http://youthol.cn/guanyu/jieshao.html" target="_blank">关于我们</a>
+                    </li>
+                    <li>
+                        <a href="http://youthol.cn/guanyu/jiaru.html" target="_blank">加入我们</a>
+                    </li>
+                    <li>
+                        <a href="http://youthol.cn/topic/aboutus/ggyw.html" target="_blank">广告业务</a>
+                    </li>
+                    <li>
+                        <a href="http://youthol.cn/hello/old.aspx" target="_blank">旧站链接</a>
+                    </li>
+                    <li>
+                        <a href="http://youthol.cn/youthpages/mobileLoginbar.aspx" target="_blank">管理登录</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="entry-con">
+                <h3 class="titl">关注我们</h3>
+                <ul>
+                    <li id="weixin">
+                        <a href="http://weixin.sogou.com/gzh?openid=oIWsFtxqw8JlpI_wckxW0fnvNBZw" target="_blank">
+                            <span class="footericon weixin"></span> 微信平台
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://t.qq.com/youthol-cn" target="_blank">
+                            <span class="footericon tweibo"></span> 腾讯微博
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://weibo.com/p/1006062133884844" target="_blank">
+                            <span class="footericon xweibo"></span> 新浪微博
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://page.renren.com/601550596" target="_blank">
+                            <span class="footericon renren"></span> 人人主页
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="entry-con">
+                <h3 class="titl">联系我们</h3>
+                <ul>
+                    <li>
+                        <span class="footericon address"></span> 山东省淄博市张店区新村西路266号
+                    </li>
+                    <li>
+                        <span class="footericon belong"></span> 山东理工大学学生工作部（处）、武装部
+                    </li>
+                    <li>
+                        <span class="footericon postcode"></span> 邮编：255000
+                    </li>
+                    <li>
+                        <span class="footericon telephone"></span> 电话：0533-2786633
+                    </li>
+                    <li>
+                        <span class="footericon email"></span> 邮箱：youth@sdut.edu.cn
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    $(function() {
+        /*
+          footer
+        */
+        $('#weixin').webuiPopover({
+            trigger: 'hover',
+            title: '扫描二维码关注“青春在线”',
+            content: '<img src="http://www.youthol.cn/hello/img/wxcode.jpg" />',
+            animation: 'pop',
+            multi: false,
+            closeable: true
+        });
+        
+        var largeContent = $('#largeContent').html();
+        $('#youqing').webuiPopover({
+            trigger: 'hover',
+            title: '友情链接',
+            content: largeContent,
+            width: "50%",
+            height: "150",
+            placement: 'right',
+            animation: 'pop',
+            multi: false,
+            closeable: true,
+            type: 'html'
+        });
+
+    });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,237 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "Comic Sans MS", cursive, "Microsoft Yahei";
+	/*background-color: #f6f6f6;*/
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: 0;
+}
+p{
+	line-height: 1.5em;
+}
+.head{
+	width: 100%;
+	height: 450px;
+	background: url(../images/banner.jpg) no-repeat;
+	min-width: 1340px;
+	/*background-size: cover;*/
+	overflow: hidden;
+}
+.logo{
+	float: left;
+	margin-left: 113px;
+	margin-top: 35px;
+	
+}
+.nav{
+	margin-top: 35px;
+	margin-right: 57px;	
+	float: right;
+	color: #fff;
+}
+.nav li{
+	list-style: none;
+	float: left;
+	padding: 10px;
+	color: #fff;
+}
+.nav li a{
+	color: #fff;
+	font-size: 18px;
+}
+.nav li a:hover{
+	color: #e25c2d;
+	font-size: 20px;
+}
+a.active{
+	color: #e25c2d!important;
+}
+a.color{
+	color: #3333ff;
+}
+a.color:hover{
+	text-decoration: underline;
+}
+/**/
+.clearfix{
+	clear: both;
+}
+/**/
+hr{
+	margin-left: 35px;
+    width: 600px;
+    border-top: 4px solid #eee;
+    border-left: 0;
+    border-radius: 2px;
+}
+p.indentation{
+	text-indent: 2em;
+}
+p.doubleindentation{
+	text-indent: 4em;
+}
+.title{
+	color: #e92b2b;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    background: #FFF;
+    padding-bottom: 50px;
+    -moz-box-shadow: 0px -3px 5px -3px #828282;
+    -webkit-box-shadow: 0px -3px 5px -3px #828282;
+    -o-box-shadow: 0px -3px 5px -3px #828282;
+    box-shadow: 0px -3px 5px -3px #828282;
+    overflow: hidden;
+    min-width: 1340px;
+}
+.cont{
+    width: 1260px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+.entry-con{
+    width: 295px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer .cont  div:nth-child(1) {
+    margin-top: 87px;
+}
+.footer .cont  div:nth-child(n+2) {
+    margin-top: 54px;
+}
+.footer .titl{
+    font-size: 18px;
+    color: #4C3333;
+}
+.footer .cont  div:nth-child(n+1) ul {
+    height: auto;
+    margin-top: 5px;
+    list-style: none;
+}
+.footer .cont  div:nth-child(n+1) ul li{
+    width: 100px;
+    height: auto;
+    float: left;
+    font-size: 14px;
+    margin-top: 15px;
+    cursor: pointer;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    list-style: none;
+}
+.footer .cont  div:nth-child(n+1) ul li a{
+    color: #428bca;
+}
+.footer .cont  div:nth-child(n+1) ul li a:hover{
+    margin-left: -3px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.footer .footericon{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/footer.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+.footer .tweibo {
+    background-position: 0px -47px;
+}
+.footer .xweibo {
+    background-position: 0px -16px;
+}
+.footer .renren {
+    background-position: 0px -31px;
+}
+.footer .cont  div:nth-last-child(1) ul li {
+    width: 100%;
+    height: auto;
+    float: left;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    margin-top: 15px;
+    padding-top: 2px;
+    vertical-align: middle;
+}
+.footer .cont  div:nth-last-child(1) ul li:hover{
+    margin-left: -3px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer .address {
+    background-position: 0px -62px;
+}
+.footer .belong {
+    background-position: 0px -78px;
+}
+.footer .postcode {
+    background-position: 0px -94px;
+}
+.footer .telephone {
+    background-position: 0px -110px;
+}
+.footer .email {
+    background-position: 0px -126px;
+}
+.webui-popover-content .xiaonei, .webui-popover-content .xiaowai {
+    height: 60px;
+}
+.webui-popover-content ul li {
+    float: left;
+    padding: 3px 8px;
+}
+.xiaowai ul li a,.xiaonei ul  li a{
+    color: #428bca;  
+    font-size: 14px;
+    
+}
+.xiaowai ul li a:hover,.xiaonei ul  li a:hover{
+    color: #fff;
+    background-color: #b87133;
+}
+.webui-popover-content ul li{
+    list-style: none;
+}
+
+/*放到最后布局正常*/
+.logo a img:hover,.entry-con a img:hover{
+    -webkit-animation: tada 1s .2s ease both;
+    -moz-animation: tada 1s .2s ease both;}
+    @-webkit-keyframes tada{0%{-webkit-transform:scale(1);}
+    10%, 20%{-webkit-transform:scale(0.9) rotate(-3deg);}
+    30%, 50%, 70%, 90%{-webkit-transform:scale(1.1) rotate(3deg);}
+    40%, 60%, 80%{-webkit-transform:scale(1.1) rotate(-3deg);}
+    100%{-webkit-transform:scale(1) rotate(0);}}
+    @-moz-keyframes tada{0%{-moz-transform:scale(1);}
+    10%, 20%{-moz-transform:scale(0.9) rotate(-3deg);}
+    30%, 50%, 70%, 90%{-moz-transform:scale(1.1) rotate(3deg);}
+    40%, 60%, 80%{-moz-transform:scale(1.1) rotate(-3deg);}
+    100%{-moz-transform:scale(1) rotate(0);}}
+}
+
+
