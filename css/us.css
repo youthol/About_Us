@@ -1,0 +1,642 @@
+/*头像呼出*/
+
+html,
+body {
+    height: 100%;
+}
+
+.ty-about-section.team {
+    height: 500px;
+    background: #fff;
+    color: #333;
+    border-top: 1px solid #fff;
+}
+
+.ty-about-team-container {
+    width: 100%;
+    height: 400px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.ty-about-team-member {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    background: #eee;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    opacity: 0;
+    -webkit-animation: teamMemberShow .4s ease-in-out forwards;
+    -o-animation: teamMemberShow .4s ease-in-out forwards;
+    animation: teamMemberShow .4s ease-in-out forwards;
+}
+
+@-webkit-keyframes teamMemberShow {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes teamMemberShow {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes teamMemberShow {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes teamMemberShow {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.ty-about-team-member-circle {
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    left: 7px;
+    top: 7px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 999;
+}
+
+.ty-about-team-member-info {
+    position: absolute;
+    left: 0px;
+    width: 0;
+    height: 80px;
+    padding-left: 80px;
+    /*padding-left: 30px;*/
+    /*padding-right: 30px;*/
+    /*background: #eee;*/
+    opacity: 0.8;
+    cursor: pointer;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    overflow: hidden;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.ty-about-team-member-info > h3 {
+    color: #555;
+    font-weight: normal;
+    font-size: 16px;
+    padding-left: 5px;
+    width: 210px;
+}
+
+.ty-about-team-member-info > h3 > small {
+    display: block;
+    color: #999;
+    font-size: 13px;
+    margin-top: 5px;
+    width: 210px;
+    /**/
+    /*padding-right: 10px;*/
+}
+
+.ty-about-team-member-info p {
+    padding-left: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+    width: 210px;
+    /**/
+   /* padding-right: 10px;*/
+}
+
+.ty-about-team-member:hover {
+    background: #fff;
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1);
+    z-index: 9999;
+}
+
+.ty-about-team-member:hover .ty-about-team-member-info {
+    width: 210px;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    -moz-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+    background: #fff;
+}
+
+
+/*字母T fix*/
+.ty-about-team-member-info2 {
+    position: absolute;
+    left: -160px;
+    width: 0;
+    height: 80px;
+    /*padding-left: 80px;*/
+    padding-left: 20px;
+    /*padding-right: 30px;*/
+    /*background: #eee;*/
+    opacity: 0.8;
+    cursor: pointer;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    overflow: hidden;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.ty-about-team-member-info2 > h3 {
+    color: #555;
+    font-weight: normal;
+    font-size: 16px;
+    padding-left: 5px;
+    width: 210px;
+}
+
+.ty-about-team-member-info2 > h3 > small {
+    display: block;
+    color: #999;
+    font-size: 13px;
+    margin-top: 5px;
+    width: 210px;
+    /**/
+    padding-right: 10px;
+}
+
+.ty-about-team-member-info2 p {
+    padding-left: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+    width: 210px;
+    /**/
+    padding-right: 10px;
+}
+
+.ty-about-team-member:hover {
+    background: #fff;
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1);
+    z-index: 9999;
+}
+
+.ty-about-team-member:hover .ty-about-team-member-info2 {
+    width: 210px;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    -moz-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+    background: #fff;
+}
+/*team member position & scale*/
+
+.ty-about-team-member-style-0 {
+    left: 0%;
+    top: 0px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+.ty-about-team-member-style-1 {
+    left: 2.6%;
+    top: 100px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+.ty-about-team-member-style-2 {
+    left: 12.6%;
+    top: 0px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+.ty-about-team-member-style-3 {
+    left: 10%;
+    top: 100px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+.ty-about-team-member-style-4 {
+    left: 6.6%;
+    top: 200px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+.ty-about-team-member-style-5 {
+    left: 6.6%;
+    top: 260px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+.ty-about-team-member-style-6 {
+    left: 6.6%;
+    top: 320px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+.ty-about-team-member-style-7 {
+    left: 6.6%;
+    top: 380px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+.ty-about-team-member-style-8 {
+    left: 29%;
+    top: 0;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+.ty-about-team-member-style-9 {
+    left: 35%;
+    top: 100px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+.ty-about-team-member-style-10 {
+    left: 39%;
+    top: 180px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+.ty-about-team-member-style-11 {
+    left: 35%;
+    top: 260px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+.ty-about-team-member-style-12 {
+    left: 29%;
+    top: 340px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+.ty-about-team-member-style-13 {
+    left: 23%;
+    top: 260px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+.ty-about-team-member-style-14 {
+    left: 20%;
+    top: 180px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+.ty-about-team-member-style-15 {
+    left: 23%;
+    top: 100px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+.ty-about-team-member-style-16 {
+    left: 45%;
+    top: 0;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+.ty-about-team-member-style-17 {
+    left: 45%;
+    top: 150px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+.ty-about-team-member-style-18 {
+    left: 45%;
+    top: 320px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+.ty-about-team-member-style-19 {
+    left: 50%;
+    top: 320px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+.ty-about-team-member-style-20 {
+    left: 55%;
+    top: 320px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+.ty-about-team-member-style-21 {
+    left: 60%;
+    top: 320px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+.ty-about-team-member-style-22 {
+    left: 60%;
+    top: 150px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+.ty-about-team-member-style-23 {
+    left: 60%;
+    top: 0px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+.ty-about-team-member-style-24 {
+    left: 66%;
+    top: 0px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+.ty-about-team-member-style-25 {
+    left: 70%;
+    top: 0px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+.ty-about-team-member-style-26 {
+    left: 74%;
+    top: 0px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+.ty-about-team-member-style-27 {
+    left: 78%;
+    top: 0px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+.ty-about-team-member-style-28 {
+    left: 72%;
+    top: 100px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+.ty-about-team-member-style-29 {
+    left: 72%;
+    top: 180px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+.ty-about-team-member-style-30 {
+    left: 72%;
+    top: 260px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+.ty-about-team-member-style-31 {
+    left: 72%;
+    top: 340px;
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+
+
+
+.ty-about-team-member-style-32 {
+    left: 84%;
+    top: 0px;
+
+     -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+.ty-about-team-member-style-33 {
+    left: 84%;
+    top: 150px;
+     -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+  
+}
+.ty-about-team-member-style-34 {
+    left: 84%;
+    top: 300px;
+
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+.ty-about-team-member-style-35 {
+    left: 88%;
+    top: 150px;
+
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+.ty-about-team-member-style-36 {
+    left: 91%;
+    top: 150px;
+ -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+.ty-about-team-member-style-37 {
+    left: 94%;
+    top: 0px;
+
+    -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+.ty-about-team-member-style-38 {
+    left: 94%;
+    top: 150px;
+
+     -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+}
+.ty-about-team-member-style-39 {
+    left: 94%;
+    top: 300px;
+     -webkit-transform: scale(.6, .6);
+    -moz-transform: scale(.6, .6);
+    -ms-transform: scale(.6, .6);
+    -o-transform: scale(.6, .6);
+    transform: scale(.6, .6);
+
+}
+
+
+
+/*.ty-about-team-member-style-40 {
+    left: 0%;
+    top: 230px;
+
+    -webkit-transform: scale(.8, .8);
+    -moz-transform: scale(.8, .8);
+    -ms-transform: scale(.8, .8);
+    -o-transform: scale(.8, .8);
+    transform: scale(.8, .8);
+}*/

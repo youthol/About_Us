@@ -20,7 +20,7 @@ p{
 	height: 450px;
 	background: url(../images/banner.jpg) no-repeat;
 	min-width: 1340px;
-	/*background-size: cover;*/
+	background-size: cover;
 	overflow: hidden;
 }
 .logo{
