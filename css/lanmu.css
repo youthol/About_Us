@@ -34,11 +34,12 @@ ul.sider{
 	padding: 20px 40px;
 }
 /**/
+
 .sider li{
 	list-style-type: none;
 	color: #333;
 	cursor: pointer;
-	width: 196px;	
+	width: 196px;
 	height: 45px;
 	text-align: center;
 	line-height: 45px;
@@ -66,4 +67,7 @@ ul.inactive{
 .content1 p{
 	text-indent: 2em;
 	line-height: 2em;
+}
+.link a{
+	color: #4F00EE;
 }

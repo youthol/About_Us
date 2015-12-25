@@ -1,12 +1,70 @@
-body{
-	background-color: #f6f6f6;
+body {
+    background-color: #f6f6f6;
 }
-blockquote{
-	border-left: 4px solid #DDD;
-   /* color: #777;*/
+
+blockquote {
+    border-left: 4px solid #DDD;
+    /* color: #777;*/
     background: url(../images/icon_quote_s.gif) #fff 10px 10px no-repeat;
     padding: 40px 0px 10px 50px;
     border: 1px dashed #ccc;
     margin-bottom: 20px;
     color: #AD47A3;
+}
+
+.smallfont {
+    font-size: 18px;
+}
+.content-con{
+	width: 745px;
+}
+.content-con .tab {
+    overflow: hidden;
+    background: #ccc;
+}
+
+.content-con .tab a {
+    display: block;
+    padding: 10px 20px;
+    float: left;
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+}
+
+.content-con .tab a:hover {
+    background: #E64E3F;
+    color: #fff;
+    text-decoration: none;
+}
+
+.content-con .tab a.on {
+    background: #E64E3F;
+    color: #fff;
+    text-decoration: none;
+}
+
+.content-con .tabcontent {
+    overflow: hidden;
+    width: 745px;
+    height: 400px;
+    position: relative;
+}
+
+.content-con .tabcontent ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    /*height: 100px;*/
+}
+
+.content-con .tabcontent li {
+    width: 745px;
+    height: 400px;
+    float: left;
+    list-style: none;
+}
+
+.content-con .tabcontent li p {
+    padding: 10px;
 }

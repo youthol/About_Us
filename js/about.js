@@ -57,7 +57,7 @@
                 if (window.intervalCount === len) {
                     window.clearInterval(window.TY_ABOUT_APPEND_TEAM_MEMBER_INTERVAL);
                 }
-            }, 350);
+            }, 150);
 
             return this;
         },
